@@ -1,0 +1,145 @@
+body {
+  background: #ecf0f1;
+  font: 14px/1.5 "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Sans-Serif;
+  margin: 0;
+}
+
+a {
+  color: #d35400;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#top-bar {
+  background: #49659f;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+}
+
+#top-bar h1 {
+  font-family: Oswald, "Open Sans", "Helvetica", Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 28px;
+}
+
+#feed {
+  width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 20px 0px 0px 0px;
+}
+
+input {
+  font: inherit;
+  width: 440px;
+  height: 27px;
+  padding: 3px 12px;
+  outline: none;
+  border: 1px solid #aaa;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+}
+
+input[type="submit"], input[type="button"], .like {
+  height: 34px;
+  width: auto;
+  background: #49659f;
+  color: #fff;
+  border: 1px solid #49659f;
+}
+
+.like {
+  font-size: 14px;
+  display: block;
+  line-height: 34px;
+  text-decoration: none;
+  padding: 0 10px;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+}
+
+#add-status input[type="submit"] {
+  width: 130px;
+}
+
+ul {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.status {
+  float: left;
+  width: 420px;
+}
+
+.code {
+  float: right;
+}
+
+.story {
+  background-color: #fefefe;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 12px 20px;
+  margin: 15px 0px;
+}
+
+.story-author {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: Oswald, "Open Sans", "Helvetica", Sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #333;
+  font-size: 21px;
+}
+
+.story-description {
+  margin-top: 5px;
+}
+
+.story-likes {
+  font-size: 16px;
+  color: #666;
+}
+
+.like {
+  float: right; 
+  margin-top: -10px;
+}

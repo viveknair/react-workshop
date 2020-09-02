@@ -1,6 +1,6 @@
 class CallbackFacebook extends React.Component {
   render() {
-    // Write your codez here
+    return null
   }
 }
 
